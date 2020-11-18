@@ -8,13 +8,7 @@
 ###### "Data Engineers are the Bridge" by Jennifer Shalamanov
 ---
 <p style="text-align: left; width: 100%;" >
-With the boom of the Internet, People have started producing more and more data. Companies have understood the importance of data and the possible opportunities it brings to the company. 
-
-In 2011, Harvard Business labeled the profession **Data Scientists** as "**The sexiest job of the 21st century**."
- 
-Data is everywhere. Everyone wants to get involved with this power. However, the fruits of this field are so **unripe** that people tend to misunderstand Data jobs, believing people involved with Data jobs as some magicians who take Data and could potentially implement their product or service.
-
-Throwing out a clear light, In this article, We'll try to clear out the skepticism built around Data jobs, discussing in detail the differences between **Data Scientist**, **Data Engineer** and **Data Architecture**.
+Data Lakehuse is a new data management paradigm that combines the capabilites of data lakes and data warehouses. This adjuncture will allow **BI Users** and **Data Scientists** to work on the same sources.
 </p>
 
 # There's even a Difference?
