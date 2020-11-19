@@ -24,15 +24,22 @@ Now that we have learned much about data warehouse and data lakes and their usag
 
 ### Features of Data Lakehouse
 
-Ben played the **Data Scientists**,
+* **Transaction support**: Lakehouses can handle multiple data pipelines. This means that they support concurrent read and write transactions without compromising data integrity.
+* **Schemas**: Warehouses apply a schema to all data; lakes do not. The lakehouse structure can reason about the application of schemas and standardize a greater volume of data.
+* **BI and analytics support**: Both teams work with a single data repository. The information contained in the lakehouse has passed through a cleansing and integration process, which speeds up analytics. It is also more voluminous and more recently updated than a warehouse, which improves the quality of BI.
+* **Extended data types**:Warehouses can only store structured data. The lakehouse structure provides access to a much broad range of data, including files, video, audio, and system logs.
+* **End-to-end streaming**: Lakehouses support streaming analytics, which facilitates real-time reporting. This is increasingly a must-have for many enterprises.
+* **Processing/storage decoupling**: The data lake structure uses clusters, which run on low-cost hardware. This approach offers very cheap decentralized storage. To further improve efficiency, the lakehouse model decouples processing from storage. This means that the lakehouse might store data in one cluster, but execute queries on a different cluster. It will always aim to maximize available resources.
+* **Openness**: The Databricks version of the lakehouse uses the open standard Parquet. This storage format has a public API that developers can easily access via Python or R.
 
-<br>
 
-In terms of Data Jobs, Ben played the **role of Data Architect**, Jonny played the **role of Data Engineer** and Cris was **the Data Scientist**.
-
-</p>
-
-# So, How these subfields are different?
+Concurrent reading and writing of data
+Schema support with mechanisms for data governance 
+Direct access to source data 
+Separation of storage and compute resources 
+Standardized storage formats 
+Support for structured and semi-structured data types, including IoT data 
+End-to-end streaming 
 
 
 
