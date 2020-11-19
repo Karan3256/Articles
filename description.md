@@ -1,4 +1,4 @@
-# Data Lakehouse?
+# The Data Lakehouse
 
 ###### by Karan Rakheja
 
@@ -8,26 +8,23 @@
 ###### "Data Engineers are the Bridge" by Jennifer Shalamanov
 ---
 <p style="text-align: left; width: 100%;" >
-Data Lakehuse is a new data management paradigm that combines the capabilites of data lakes and data warehouses. This adjuncture will allow **BI Users** and **Data Scientists** to work on the same sources.
+Data Lakehuse is a new data management paradigm that leverages the capabilites of data lakes and data warehouses. This adjuncture will allow **BI Users** and **Data Scientists** to work on the same sources. The data lakehouse is benefitted with schema enforcement and governance from data warehouse and with diverse data types from data lakes.
+
+* Data Warehouse: It is a storage repository that holds structured data and helps to connect and perform analysis on that data. Raw data passess through many data transformation pipelines that integrates and cleans the data before performing any analysis on it. Data is usually housed in files and folder in data warehouses.
+
+* Data Lake: It is also a storage repository that can accomodate all kinds of data, like a lake which can accommodate multiple tributaries. Data lakes can store structured, semi- structured and un-structured data like images, documents, logs, etc. It is big, fast and cost-effective and thus increase analytic performance. A unique identifier, with some metadata information, is tagged with each data element thus removing the need of schema approach.
 </p>
 
-# There's even a Difference?
+# Why to Use the Data Lakehouse?
 
 <p style="text-align: left;">
+Multiple data warehouses and a big data lake are still used parallelly in many organizations resulting in data duplication between the two with data transformation and management pipelines overhead, initiating towards the growth of data lakehouse.
+  
+Now that we have learned much about data warehouse and data lakes and their usage resulting to the exploration data lakehouse to reduce these overheads. Let's explore more about data lakehouse. 
 
-**Yes**. Although they work together to harness the power of Data, they differ from each other in terms of their job roles.
+### Features of Data Lakehouse
 
-Let's take a small example to clear this out.
-
-Imagine three people: Ben, Jonny, Cris.
-
-So, Ben comes out with a plan to create a machine where one can put up a raw Apple and a processed Jam would come out from another end.
-
-He contacts his friend Jonny. And together they work and develop a machine based on Ben's idea. 
-
-Now they want to use the power of the machine to further improve its commercial use. They contact Cris. Now Cris uses the processed Jam given by machine to create Jam Sandwich which he sells out and everyone gets the profit. 
-
-<img src="images\apple.png" alt="drawing"/>
+Ben played the **Data Scientists**,
 
 <br>
 
@@ -129,3 +126,10 @@ Given above is an interpretation of what we have observed while researching at t
 
 Restating, Data is everywhere. Every company wants a guy who can bring the potential out of these Data that can change the world we are looking at right now. Pursue the field that you love and have a passion for, irrespective of its scope and salary, because, in the end, it'll bring immense pleasure and satisfaction. And if you're good with your field, then there will be demand and you'll grow. 
 </p>
+
+# References
+
+* https://www.guru99.com/data-warehousing.html
+* https://www.guru99.com/data-lake-architecture.html
+* https://www.xplenty.com/glossary/what-is-a-data-lakehouse
+* https://www.snowflake.com/guides/what-data-lakehouse
