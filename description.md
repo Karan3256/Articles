@@ -3,9 +3,9 @@
 ###### by Karan Rakheja
 
 
-<img src="images\lakehouse.jpg" alt="drawing" height="200"/>
+<img src="images\lakehouse.jpg" alt="drawing" height="600"/>
 
-###### "Data Engineers are the Bridge" by Jennifer Shalamanov
+###### "Lakehouse - The Evolution of the Data Warehouse?" by Stefan Koch
 ---
 <p style="text-align: left; width: 100%;" >
 Data Lakehuse is a new data management paradigm that leverages the capabilites of data lakes and data warehouses. This adjuncture will allow **BI Users** and **Data Scientists** to work on the same sources. The data lakehouse is benefitted with schema enforcement and governance from data warehouse and with diverse data types from data lakes.
