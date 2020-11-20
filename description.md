@@ -3,7 +3,7 @@
 ###### by Karan Rakheja
 
 
-<img src="images\lakehouse.jpg" alt="drawing"/>
+<img src="images\lakehouse.jpg" alt="drawing" height="200"/>
 
 ###### "Data Engineers are the Bridge" by Jennifer Shalamanov
 ---
