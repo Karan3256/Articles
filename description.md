@@ -62,6 +62,8 @@ Databricks and Snowflake are both data repositories which are competing with the
 Snowflake | Databricks
 --------- | ----------
 It requires a user to structure the un-structured data before any analysis can be done on it. It automatically transforms the data into its internal structured data format | It does not require a user to convert data into any other format and lets a user to retain the data into it's original raw format.
+It does not completely decouples the data storage and data processing layers. It means that Snowflake still owns both of these layers internally. | It does not own any of the data storage and data processing layers. It fully decouples them meaning that data can be stored anywhere, in any format, still allowing the processing on it to gather business intelligence.
+It uses third party ecosystem for leveraging the processing capability on data, e.g. Apache Spark. The data transference may give rise to problems such as data integrity, data reliability and low latency issues. It is best suited for SQL based queries processing on data. | It also supports high performance SQL queries for data processing. It provides data reliability and high latency ensuring high data performance for analysis.
 
 </p>
 
