@@ -49,14 +49,17 @@ Though data warehouses and data lakes are widely used and popular among data eng
 # Architecture
 
 <img src="images\Data-Lakehouse-Architecture.png" alt="drawing"/>
-###### [" "]()
+###### ["Data Lakehouse, meet fast queries and visualization"](https://www.zdnet.com/article/data-lakehouse-meet-fast-queries-and-visualization-databricks-unveils-delta-engine-acquires-redash/)
 
 The above architecture of Data Lakehouse is self explanatory. It can accommodate any sort kind of data whether it is structured, semi-structured and un-strucutred data. Data can be anything from audio, video, files, system logs, etc. The data storage on data lakehouse can be of any amount. Therefore, data lakehouse has overcome many shortcomings of data warehouse and data lake because it can store large amount of data to be processed and analyzed to gather insights from it.
 
-# Databricks Data Lakehouse vs Snowlake Data Lakehouse
+# Databricks Data Lakehouse vs Snowflake Data Lakehouse
 
 <p style="text-align: left;">
-
+Databricks and Snowflake are both data repositories which are competing with themselves to provide one-stop solution to it's users in handling and processing all kinds of data for any use case. Thier objective is to to provide elasticity in terms of both cost and performance to it's customers so that they can concentrate more on generating business value. Though they both aims to provide same benefits to their users but there exists some differences between them. Let's discuss them below:
+Snowflake | Databricks
+--------- | ----------
+It requires a user to structure the un-structured data before any analysis can be done on it. It automatically transforms the data into its internal structured data format | It does not require a user to convert data into any other format and lets a user to retain the data into it's original raw format.
 
 </p>
 
