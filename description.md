@@ -8,6 +8,7 @@
 ###### ["Lakehouse - The Evolution of the Data Warehouse?" by Stefan Koch](https://www.stefanko.ch/en/post/lakehouse/)
 ---
 <p style="text-align: left; width: 100%;" >
+ 
 Data Lakehuse is a new data management paradigm that leverages the capabilites of data lakes and data warehouses. This adjuncture will allow **BI Users** and **Data Scientists** to work on the same sources. The data lakehouse is benefitted with schema enforcement and governance from data warehouse and with diverse data types from data lakes.
 
 * Data Warehouse: It is a storage repository that holds structured data and helps to connect and perform analysis on that data. Raw data passess through many data transformation pipelines that integrates and cleans the data before performing any analysis on it. Data is usually housed in files and folder in data warehouses.
@@ -34,6 +35,7 @@ Now that we have learned much about data warehouse and data lakes and their usag
 # Why to Use the Data Lakehouse?
 
 <p style="text-align: left;">
+  
 Though data warehouses and data lakes are widely used and popular among data engineers, there shortcomings led to the development of data lakehouses. Data lakehouses resolved many issue exsisting with these two major data repositories such as:
 
 * **Data Redundancy**: Using both a data lake and many data warehouses in an organization creates data duplication because data is stored on both of them which creates data  inefficiency and inconsistency. Data lakehouse resolves this problem by storing data on a single data lakehouse for analysis and hence reducing data movement between warehouses and lakes.
@@ -41,7 +43,6 @@ Though data warehouses and data lakes are widely used and popular among data eng
 * **Data governance**: Data lakeouse eliminates the oberhead of managing data governance on multiple data repositories. Sensitive data can be easily managed and goverened through single data governance instead of using multiple warehouses and lakes which will require proper control and encryption on data transference.
 * **Data Access**: Data lakehouse provide direct access of data for BI developers who can then apply BI tools such as Tableau, Power BI, etc. This direct connection reduces the time taken for visualization of raw data.
 * **ETL Jobs Removal**: With the usage of data lakehouses within an organization, the simple etl jobs, which were used in data warehousing to query or perform analysis on the data passed on from a data lake, have been eliminated by connecting the query engine directly to data lake.
-
 
 </p>
 
@@ -57,6 +58,7 @@ The above architecture of Data Lakehouse is self explanatory. It can accommodate
 # Databricks Data Lakehouse vs Snowflake Data Lakehouse
 
 <p style="text-align: left;">
+  
 Databricks and Snowflake are both data repositories which are competing with themselves to provide one-stop solution to it's users in handling and processing all kinds of data for any use case. Thier objective is to to provide elasticity in terms of both cost and performance to it's customers so that they can concentrate more on generating business value. Though they both aims to provide same benefits to their users but there exists some differences between them. Let's discuss them below:
 
 Snowflake | Databricks
@@ -66,12 +68,15 @@ It does not completely decouples the data storage and data processing layers. It
 It uses third party ecosystem for leveraging the processing capability on data, e.g. Apache Spark. The data transference may give rise to problems such as data integrity, data reliability and low latency issues. It is best suited for SQL based queries processing on data. | It also supports high performance SQL queries for data processing. It provides data reliability and high latency ensuring high data performance for analysis.
 
 Thses differences made many things clear about these two data repositories for their popularity among data experts. Snowflake data lakehouse is generally preferred due to its simplicity while databricks data lakehouse is far more versatile and freedom of data storage and access from anywhere from processing increases it's demand among organisations.
+
 </p>
 
 # Conclusion
 
 <p style="text-align: left;">
+  
 Datalakehuses are still in their early stage and will require more time to rule over the data storage market. As so many organisations are still dependent on data warehouses and data lakes for thier data storge requirements it is difficult for them to make transition of their bulk data over data lakehouses due of their initial phase of introduction to the data market. Although, the lakehouses provide all the functionality but it leads it to become more monolithic and in-flexible and harder to maintain. Data experts believe in using more modular applications to make their life easier and they also believe that the lakehouses will mature further to become more efficient and tangible to be accepted by data community wholeheartedly.
+
 </p>
 
 # References
