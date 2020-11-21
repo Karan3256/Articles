@@ -65,13 +65,13 @@ It requires a user to structure the un-structured data before any analysis can b
 It does not completely decouples the data storage and data processing layers. It means that Snowflake still owns both of these layers internally. | It does not own any of the data storage and data processing layers. It fully decouples them meaning that data can be stored anywhere, in any format, still allowing the processing on it to gather business intelligence.
 It uses third party ecosystem for leveraging the processing capability on data, e.g. Apache Spark. The data transference may give rise to problems such as data integrity, data reliability and low latency issues. It is best suited for SQL based queries processing on data. | It also supports high performance SQL queries for data processing. It provides data reliability and high latency ensuring high data performance for analysis.
 
+Thses differences made many things clear about these two data repositories for their popularity among data experts. Snowflake data lakehouse is generally preferred due to its simplicity while databricks data lakehouse is far more versatile and freedom of data storage and access from anywhere from processing increases it's demand among organisations.
 </p>
 
 # Conclusion
 
 <p style="text-align: left;">
-
-
+Datalakehuses are still in their early stage and will require more time to rule over the data storage market. As so many organisations are still dependent on data warehouses and data lakes for thier data storge requirements it is difficult for them to make transition of their bulk data over data lakehouses due of their initial phase of introduction to the data market. Although, the lakehouses provide all the functionality but it leads it to become more monolithic and in-flexible and harder to maintain. Data experts believe in using more modular applications to make their life easier and they also believe that the lakehouses will mature further to become more efficient and tangible to be accepted by data community wholeheartedly.
 </p>
 
 # References
