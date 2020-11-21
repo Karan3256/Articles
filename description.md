@@ -48,7 +48,7 @@ Though data warehouses and data lakes are widely used and popular among data eng
 
 # Architecture
 
-<img src="images\Data-Lakehouse-Architecture.png" alt="drawing"/>
+<img src="images\Data-Lakehouse-Architecture.jpg" alt="drawing"/>
 
 ###### ["Data Lakehouse, meet fast queries and visualization"](https://www.zdnet.com/article/data-lakehouse-meet-fast-queries-and-visualization-databricks-unveils-delta-engine-acquires-redash/)
 
