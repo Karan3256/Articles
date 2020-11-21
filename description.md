@@ -49,6 +49,7 @@ Though data warehouses and data lakes are widely used and popular among data eng
 # Architecture
 
 <img src="images\Data-Lakehouse-Architecture.png" alt="drawing"/>
+###### [" "]()
 
 The above architecture of Data Lakehouse is self explanatory. It can accommodate any sort kind of data whether it is structured, semi-structured and un-strucutred data. Data can be anything from audio, video, files, system logs, etc. The data storage on data lakehouse can be of any amount. Therefore, data lakehouse has overcome many shortcomings of data warehouse and data lake because it can store large amount of data to be processed and analyzed to transform into some useful information.
 
